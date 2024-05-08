@@ -50,9 +50,10 @@ async def remt(event):
 async def start_command(event):
     # Creating inline keyboard with buttons
     buttons = [
+        [Button.url("Join Channel", url="https://t.me/Sudip_Tricks")],
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://t.me/+DGQfhgy65yxhYWU1")]
+        [Button.url("Movie Group", url="https://t.me/Ott_Request_Group")]
     ]
 
     # Sending photo with caption and buttons
